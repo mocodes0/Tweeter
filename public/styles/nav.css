@@ -1,0 +1,11 @@
+/* .info {
+  height: 120px;
+  width: 50%;
+  background-color: rgb(5, 129, 159);
+  position: relative;
+  padding-top: 120px;
+} */
+nav {
+  background: rgb(5, 129, 159);
+  position: relative;
+}

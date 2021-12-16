@@ -92,7 +92,7 @@ $(document).ready(function () {
       if ($tweet === 0) {
         alert("Cannot post blank Tweet");
       } else if ($tweet > 140) {
-        alert("Tweet too long.. control your thoughts");
+        alert("Tweet over charachter limit");
       } else {
         $.ajax({
           type: "POST",
