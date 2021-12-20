@@ -16,3 +16,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+["Screenshot of the Home Page"](https://github.com/mocodes0/tweeter/blob/master/docs/composTweetPageNew.png)
+!["Screenshot of Previous Tweets on Timeline"](https://github.com/mocodes0/tweeter/blob/master/docs/Tweets.png)
+User can see previous tweets and can toggle the down arrow found on the top right section to write a new tweet.
