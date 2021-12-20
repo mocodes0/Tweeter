@@ -12,11 +12,18 @@ This repository is the starter code for the project: Students will fork and clon
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 
+
+## Screenshots
+["Screenshot of the Home Page"](https://github.com/mocodes0/tweeter/blob/master/docs/Homepage.png)
+["Screenshot of Composing a Tweet"](https://github.com/mocodes0/tweeter/blob/master/docs/composeTweet1.png)
+
+["Screenshot of Error Message if Over Character Limit"](https://github.com/mocodes0/tweeter/blob/master/docs/errorMessage.png)(https://github.com/mocodes0/tweeter/blob/master/docs/composTweetPageNew.png)
+
 ## Dependencies
 
 - Express
 - Node 5.10.x or above
+- Body parser
+- md5
 
-["Screenshot of the Home Page"](https://github.com/mocodes0/tweeter/blob/master/docs/composTweetPageNew.png)
-!["Screenshot of Previous Tweets on Timeline"](https://github.com/mocodes0/tweeter/blob/master/docs/Tweets.png)
-User can see previous tweets and can toggle the down arrow found on the top right section to write a new tweet.
+
