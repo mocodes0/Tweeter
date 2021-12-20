@@ -14,10 +14,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 
 ## Screenshots
-["Screenshot of the Home Page"](https://github.com/mocodes0/tweeter/blob/master/docs/Homepage.png)
-["Screenshot of Composing a Tweet"](https://github.com/mocodes0/tweeter/blob/master/docs/composeTweet1.png)
-
-["Screenshot of Error Message if Over Character Limit"](https://github.com/mocodes0/tweeter/blob/master/docs/errorMessage.png)(https://github.com/mocodes0/tweeter/blob/master/docs/composTweetPageNew.png)
+!["Screenshot of the Home Page"](https://github.com/mocodes0/tweeter/blob/master/docs/Homepage.png)
+!["Screenshot of Composing a Tweet"](https://github.com/mocodes0/tweeter/blob/master/docs/composeTweet1.png)
+!["Screenshot of Error Message if Over Character Limit"](https://github.com/mocodes0/tweeter/blob/master/docs/errorMessage.png)
 
 ## Dependencies
 
