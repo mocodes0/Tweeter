@@ -76,5 +76,17 @@
 }
 
 .oldTweet:hover .likes-icon {
-  text-shadow: 2px 3px 2px #81869e;
+  text-shadow: 2px 3px 2px #819e91;
 }
+
+fa-flag {
+  color: #fcf3b0;
+}
+
+.fa-heart {
+  color: #f93976;
+}
+
+.fa-retweet {
+  color: #40a14b;
+} 

@@ -1,10 +1,4 @@
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
 // Client-side JS logic goes here
-
 // const data = [
 //   {
 //     user: {
@@ -30,7 +24,6 @@
 //     created_at: 1580254875421
 //   }
 // ];
-
 const renderTweets = function (tweets) {
   // loops through tweets
   // calls createTweetElement for each tweet
@@ -40,7 +33,6 @@ const renderTweets = function (tweets) {
     $(".tweet-container").prepend($tweet);
   }
 };
-
 const createTweetElement = function (tweet) {
   // ...
   let $tweet = `
@@ -66,7 +58,6 @@ const createTweetElement = function (tweet) {
   `;
   return $tweet;
 };
-
 $(document).ready(function () {
   const loadTweets = function () {
     $.ajax({
@@ -81,8 +72,7 @@ $(document).ready(function () {
     });
   };
   loadTweets();
-
-  $(function () {
+  
     const $tweetPost = $("#post-tweet");
     $tweetPost.on("click", function (event) {
       event.preventDefault();
@@ -92,7 +82,7 @@ $(document).ready(function () {
       if ($tweet === 0) {
         alert("Cannot post blank Tweet");
       } else if ($tweet > 140) {
-        alert("Tweet over charachter limit");
+        alert("Tweet over character limit");
       } else {
         $.ajax({
           type: "POST",
@@ -102,9 +92,8 @@ $(document).ready(function () {
           loadTweets();
         });
       }
-    });
+  
   });
-
   $(".down-arrow").click(function (e) {
     e.preventDefault();
     $(".new-tweet").css("display", "block");
