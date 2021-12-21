@@ -75,12 +75,12 @@
   margin: 5px;
 }
 
-.oldTweet:hover .likes-icon {
+.oldTweet:hover .likes-icon:hover {
   text-shadow: 2px 3px 2px #819e91;
 }
 
-fa-flag {
-  color: #fcf3b0;
+.fa-flag {
+  color: #b4b0fc;
 }
 
 .fa-heart {
